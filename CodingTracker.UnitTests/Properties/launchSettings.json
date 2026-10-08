@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "CodingTracker.UnitTests": {
-      "commandName": "Project",
-      "workingDirectory": "$(ProjectDir)"
-    }
-  }
-}

@@ -1,7 +1,7 @@
-# Coding Tracker
+# Flashcards
 
-A simple console-based coding tracker. This is a project for the C# Academy course.
-You can view your coding sessions, delete them and track a session as it happens.
+A simple console-based flashcard study app. This is a project for the C# Academy course.
+You can view study flashcards, create and add to stacks, view your scores...
 
 ## How to use
 
@@ -11,23 +11,19 @@ As this is a console application you just need to input the option you want and 
 
 On starting the program you get presented all the options available.
 
-#### Track Session
+#### Study
 
-You can track a session in progress and stop the time when you are finished.
+You start a study session after choosing a stack.
 
-#### View Sessions
+#### View Study Sessions
 
-Shows all the sessions saved. You can filter by any field and order them.
+You can see your previous study sessions and the average score by month.
 
-#### Add Sessions
+#### Manage Flashcards and Stacks
 
-Add a session you've completed before by writing all fields.
+Another menu opens where you can view, create, update and delete flashcards and stacks.
 
-#### Delete Sessions
-
-Delete a session.
-
-#### Exit Application
+#### Exit
 
 Close the program.
 
@@ -36,12 +32,12 @@ Close the program.
 
 ## What I've learned
 
-- First time using Spectre Console. Very useful for simple console applications as it gives you almost anything you need.
-- Also first time using Dapper. As this was a simpler project than the previous one I didn't need much from it so I hope to use it more in the future to learn in more in depth.
-- How much not coding during a few months affects your ability. It cost me some effort to even remember what I was doing making this program.
+- I've used SQL Server in the past but I didn't understand how it worked and what it was doing. Now that I've demystified its inner workings I'm confident in using it.
+- How to structure the flow of data from the UI to the Database and viceversa with the appropiate classes and Dtos.
+- I'm getting better at asking the AI for information to learn without it doing the work I should do. One of the best tools for learning coding in depth and understand what happens underneath.
 
 ## Things to improve
 
-- As the project was small I've only made a few unit tests, but it's better than nothing I guess.
-- Again not coding for so long made the architecture not the best. Even though I've known OOP for a long time I didn't make the best design decisions this time.
-- I forgot to make good use of Git and only made like 2 commits, definitely need to remember for the next project.
+- I'd say I'm improving my architecture but that's something that you have to keep improving over the years so that's always there.
+- Keep coding regularly is fundamental to remember what you've learned. It's too easy to forget things if you take lengthy breaks. I need to be more constant.
+- For some reason I forget Git exists after the first commit and until the project is finished. I'm REALLY going to remember it for the next project (as I told myself for the previous one).

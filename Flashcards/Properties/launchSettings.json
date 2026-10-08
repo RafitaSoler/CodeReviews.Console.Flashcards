@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "CodingTracker": {
+    "Flashcards": {
       "commandName": "Project",
       "workingDirectory": "$(ProjectDir)"
     }

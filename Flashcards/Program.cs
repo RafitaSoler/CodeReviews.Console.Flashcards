@@ -1,4 +1,5 @@
-﻿using CodingTracker;
+﻿using Flashcards;
+using Flashcards.Data;
 using Microsoft.Extensions.Configuration;
 
 class Program
@@ -6,15 +7,15 @@ class Program
     static void Main(string[] args)
     {
         var config = new ConfigurationBuilder()
-            .SetBasePath(AppContext.BaseDirectory)
-            .AddJsonFile("appsettings.json", optional: false)
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json")
             .Build();
 
         DatabaseManager.SetConfiguration(config);
         DatabaseManager.Start();
         DatabaseManager.Initialize();
 
-        UIController ui = new(config);
-        ui.MainMenu();
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        UIController.MainMenu();
     }
 }
